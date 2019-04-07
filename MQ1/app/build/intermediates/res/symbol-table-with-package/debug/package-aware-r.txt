@@ -1093,8 +1093,9 @@ id ConstraintLayout2
 id EmailLoginText
 id EmailText
 id FUNCTION
-id LogOutB
 id META
+id Nickname
+id NicknameCh
 id PasswLoginText
 id PasswText
 id Questions
@@ -1131,6 +1132,8 @@ id all
 id always
 id async
 id auto
+id avatarView
+id avatarViewCh
 id barrier
 id beginning
 id blocking
@@ -1139,6 +1142,8 @@ id button
 id button2
 id button4
 id buttonPanel
+id buttonSavenickname
+id buttonSavenicknameCh
 id button_menu
 id cancel_action
 id center
@@ -1194,9 +1199,11 @@ id four
 id fragmet_container
 id fragmet_game_container
 id ghost_view
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
+id guideline
 id home
 id homeAsUp
 id ic_round
@@ -1207,10 +1214,11 @@ id ifRoom
 id imag_lenta
 id image
 id imageView
-id imageView2
 id info
 id invisible
 id italic
+id item1
+id item2
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
@@ -1238,7 +1246,6 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id navigation_header_container
 id never
-id nickname
 id nickname_lenta
 id none
 id normal
@@ -1268,7 +1275,6 @@ id relative_lenta
 id right
 id right_icon
 id right_side
-id saveNicknameButton
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1290,6 +1296,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settingsAvatarView
 id shortcut
 id showCustom
 id showHome
@@ -1338,6 +1345,7 @@ id titleDividerNoCustom
 id title_lenta
 id title_template
 id toolbar
+id toolbar1
 id top
 id topPanel
 id touch_outside
@@ -1406,11 +1414,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_change_settings_profile
 layout activity_create_questions
 layout activity_create_quiz
 layout activity_login
 layout activity_main
 layout activity_main_lenta
+layout activity_setting_profile
 layout activity_this_is_fragment_play_game
 layout activity_tittle_game
 layout card_element
@@ -1455,7 +1465,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout toolbar
 menu buttom_menu
+menu right_toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
